@@ -1,16 +1,12 @@
-# <img src="Resources/PBLogo.jpg" width="100" height="84"> PoliBrick
-#
-PoliBrick is a Grasshopper plugin that streamlines the export of complex geometries (like brick assemblies) into **Itasca 3DEC 5.2** format. 
-
-It handles the generation of `.dat` files with correct Polyhedra syntax, ensuring watertight geometry for numerical modeling.
+# <img src="Resources/PBLogo.jpg" width="150" height="120"> 
+# PoliBrick
+**PoliBrick** is a parametric plugin for Rhinoceros and Grasshopper specifically designed for the digital modelling of complex brick stereotomy on free-form surfaces
+## Features
+- **Structural Integration**: Exports Grasshopper Mesh geometry to 3DEC,Straus7 and MATLAB with correct syntax.
+- **Alphabetical Patterning**: Employs a novel string-based logic (e.g., A, B, S) to replicate intricate patterns like herringbone, basket weave, and stretcher bonds.
 
 ![Example Workflow](Resources/PBFamily.png)
-*(Put a nice screenshot of the component in Grasshopper here)*
-
-## Features
-- Exports Grasshopper BRep/Mesh geometry to 3DEC Polyhedra blocks.
-- **Auto-correction**: Ensures correct vertex winding (CCW) for faces to avoid "Negative Volume" errors.
-- Assigns material (`mat`) and constitutive model (`con`) IDs.
+*(verview of the PoliBrick component family)*
 
 ## Installation
 1. Go to the [Releases](../../releases) page.
@@ -20,22 +16,19 @@ It handles the generation of `.dat` files with correct Polyhedra syntax, ensurin
 5. Right-click the file > **Properties** > **Unblock** (if necessary).
 6. Restart Rhino/Grasshopper.
 
-## Usage
-1. **Input Geometry:** Connect your closed Breps or Meshes to the `Geo` input.
-2. **Settings:** define your Material ID and Constitutive Model ID.
-3. **Export:** Connect a panel or a "Text Save" component to the output to generate your `.dat` file.
-
-
-
-
 ## Example
-Check the `examples/` folder for a sample:
-- `wall_test.gh`: The Grasshopper generation script.
-- `wall_test.dat`: The resulting 3DEC input file.
+Check the `Examples/` folder for a sample:
+- `Example File.gh`: The Grasshopper generation script.
 
 ## Requirements
 - Rhinoceros 6 or 7
 - Itasca 3DEC 5.2 (for running the output)
+
+## Technical Collaboration
+PoliBrick was developed by **Mohammad Pourfouladi** in collaboration with **Natalia Pingaro** (Politecnico di Milano)
+
+## Reference Paper
+Pourfouladi, M., Pingaro, N., & Valente, M. (2025b). PoliBrick plugin as a parametric tool for digital stereotomy modelling. Computers & Structures, 311, 107722.[![Paper Link]](https://doi.org/10.1016/j.compstruc.2025.107722 )
 
 ## License
 This project is licensed under the MIT License.
