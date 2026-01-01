@@ -1,11 +1,11 @@
-![Plugin_logo](Resources/PBLogo.png)
+![Plugin_logo](Resources/PBLogo.JPG)
 # PoliBrick
 
 PoliBrick is a Grasshopper plugin that streamlines the export of complex geometries (like brick assemblies) into **Itasca 3DEC 5.2** format. 
 
 It handles the generation of `.dat` files with correct Polyhedra syntax, ensuring watertight geometry for numerical modeling.
 
-![PoliBrick Screenshot](images/header_screenshot.png) 
+![Example Workflow](Resources/PBFamily.png)
 *(Put a nice screenshot of the component in Grasshopper here)*
 
 ## Features
@@ -26,8 +26,8 @@ It handles the generation of `.dat` files with correct Polyhedra syntax, ensurin
 2. **Settings:** define your Material ID and Constitutive Model ID.
 3. **Export:** Connect a panel or a "Text Save" component to the output to generate your `.dat` file.
 
-![Example Workflow](Resources/PBFamily.png)
-*(Screenshot of the whole Grasshopper script)*
+
+
 
 ## Example
 Check the `examples/` folder for a sample:
