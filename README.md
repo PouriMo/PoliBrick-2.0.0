@@ -1,4 +1,4 @@
-# <img src="Resources/PBLogo.jpg" width="150" height="170"> 
+# <img src="Resources/PBLogo.png" width="150" height="170"> 
 # PoliBrick
 **PoliBrick** is a parametric plugin for Rhinoceros and Grasshopper specifically designed for the digital modelling of complex brick stereotomy on free-form surfaces
 ## Features
