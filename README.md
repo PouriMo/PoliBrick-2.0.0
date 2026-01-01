@@ -1,4 +1,4 @@
-# <img src="Resources/PBLogo.jpg" width="150" height="120"> 
+# <img src="Resources/PBLogo.jpg" width="150" height="150"> 
 # PoliBrick
 **PoliBrick** is a parametric plugin for Rhinoceros and Grasshopper specifically designed for the digital modelling of complex brick stereotomy on free-form surfaces
 ## Features
@@ -28,7 +28,7 @@ Check the `Examples/` folder for a sample:
 PoliBrick was developed by **Mohammad Pourfouladi** in collaboration with **Natalia Pingaro** 
 
 ## Reference Paper
-Pourfouladi, M., Pingaro, N., & Valente, M. (2025b). PoliBrick plugin as a parametric tool for digital stereotomy modelling. Computers & Structures, 311, 107722.[Link](https://doi.org/10.1016/j.compstruc.2025.107722 )
+Pourfouladi, M., Pingaro, N., & Valente, M. (2025). PoliBrick plugin as a parametric tool for digital stereotomy modelling. Computers & Structures, 311, 107722. [Link](https://doi.org/10.1016/j.compstruc.2025.107722 )
 
 ## License
 This project is licensed under the MIT License.
