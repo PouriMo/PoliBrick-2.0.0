@@ -1,4 +1,4 @@
-![PPlugin_logo](Resources/01 Logo.png)
+![Plugin_logo](Resources/PBLogo.png)
 # PoliBrick
 
 PoliBrick is a Grasshopper plugin that streamlines the export of complex geometries (like brick assemblies) into **Itasca 3DEC 5.2** format. 
