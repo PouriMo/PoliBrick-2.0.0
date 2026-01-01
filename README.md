@@ -1,4 +1,4 @@
-# <img src="Resources/PBLogo.jpg" width="150" height="150"> 
+# <img src="Resources/PBLogo.jpg" width="150" height="170"> 
 # PoliBrick
 **PoliBrick** is a parametric plugin for Rhinoceros and Grasshopper specifically designed for the digital modelling of complex brick stereotomy on free-form surfaces
 ## Features
@@ -6,7 +6,7 @@
 - **Alphabetical Patterning**: Employs a novel string-based logic (e.g., A, B, S) to replicate intricate patterns like herringbone, basket weave, and stretcher bonds.
 
 ![Example Workflow](Resources/PBFamily.png)
-*(verview of the PoliBrick component family)*
+*overview of the PoliBrick component family*
 
 ## Installation
 1. Go to the [Releases](../../releases) page.
