@@ -1,6 +1,6 @@
 # <img src="Resources/Logo.png" width="150" height="170"> 
 # PoliBrick
-**PoliBrick** is a parametric plugin for Rhinoceros and Grasshopper specifically designed for the digital modelling of complex brick stereotomy on free-form surfaces
+**PoliBrick** is a parametric plugin for Rhinoceros and Grasshopper specifically designed for the digital modelling of complex brick stereotomy on free-form surfaces.
 ## Features
 - **Structural Integration**: Exports Grasshopper Mesh geometry to 3DEC, Straus7 and MATLAB with correct syntax.
 - **Alphabetical Patterning**: Employs a novel string-based logic (e.g., A, B, S) to replicate intricate patterns like herringbone, basket weave, and stretcher bonds.
@@ -25,7 +25,7 @@ Check the `Examples/` folder for a sample:
 - **Knowledge**: Basic familiarity with Grasshopper data trees.
 
 ## Authors
-PoliBrick was developed by **Mohammad Pourfouladi** in collaboration with **Natalia Pingaro** 
+PoliBrick was developed by **Mohammad Pourfouladi** in collaboration with **Natalia Pingaro**.
 
 ## Reference Paper
 Pourfouladi, M., Pingaro, N., & Valente, M. (2025). PoliBrick plugin as a parametric tool for digital stereotomy modelling. Computers & Structures, 311, 107722. [Link](https://doi.org/10.1016/j.compstruc.2025.107722 )
